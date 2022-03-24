@@ -1,5 +1,6 @@
 # Investigate_a_Dataset
 This dataset collects information from 100k medical appointments in Brazil and is focused on the question of whether or not patients show up for their appointment.
+
 ● A number of characteristics about the patient are included in each row.
 
 ● ‘ScheduledDay’ tells us on what day the patient set up their appointment.
@@ -9,8 +10,10 @@ This dataset collects information from 100k medical appointments in Brazil and i
 ● ‘Scholarship’ indicates whether or not the patient is enrolled in Brasilian welfare program Bolsa Família.
 
 ● Be careful about the encoding of the last column: it says ‘No’ if the patient showed up to their appointment, and ‘Yes’ if they did not show up.
+
 Question(s) for Analysis :-
 What are the factors that affect the attendaance of patients ?
+
 Data Wrangling
 In this section of the report, I will load in the data, check for cleanliness, and then trim and clean my dataset for analysis. Make sure that I document my data cleaning steps in mark-down cells precisely and justify my cleaning decisions.
 
@@ -24,6 +27,7 @@ One option that I can take with this project is to do a lot of explorations in a
 I will make sure to use enough comments to understand the purpose of each code cell.
 
 I will create a duplicate notebook where I will trim the excess and organize my steps for final report.
+
 Data Cleaning
 After discussing the structure of the data and any problems.
 
@@ -35,13 +39,13 @@ I will be sure to keep my reader informed on the steps that i will take in my in
 I will Follow every code cell, or every set of related code cells, with a markdown cell to describe to the reader what was found in the preceding cell(s).
 
 So that the reader can then understand what they will be seeing in the following cell(s).
+
 Data wrangling summary:
 First I loaded my data and print out a few lines, Perform operations to inspect data types and looked for instances of missing data.
 
 Then I checked the shape, duplicate rows, unique values, duplicated patients IDs, missing values or other issues and described my data
 
 Finally I cleaned my data by remove mistake values, correct the columns name, Clean duplicated and clean unnecessary data.
-
 
 Exploratory Data Analysis
 Now that Ihave trimmed and cleaned my data, I'm ready to move on to exploration. Compute statistics and create visualizations with the goal of addressing the research questions that I posed in the Introduction section. I will compute the relevant statistics throughout the analysis when an inference is made about the data. At least two or more kinds of plots I will created as part of the exploration, and I will compare and show trends in the varied visualizations.
